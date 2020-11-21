@@ -1,0 +1,30 @@
+$primary: #3371fe;
+@media only screen and (max-width: 1024px) {
+  .cardWidth {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cardWidth {
+    width: 40%;
+  }
+}
+.card {
+  padding: 2rem;
+  background-color: $primary;
+}
+.field {
+  margin-top: 2rem;
+}
+
+.or {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  span {
+    background: $primary;
+    padding: 0 10px;
+  }
+}

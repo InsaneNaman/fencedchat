@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1024px) {
+  .containerHeight {
+    height: 94vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .containerHeight {
+    height: 90vh;
+  }
+}
+
+.container {
+  flex-direction: column;
+}
+.messages {
+  flex-grow: 1;
+}
+.messageBox {
+  height: 5vh;
+}

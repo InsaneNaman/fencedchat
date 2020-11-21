@@ -1,0 +1,19 @@
+.response {
+  span {
+    padding: 1rem;
+    border-radius: 25px 25px 25px 0;
+    box-shadow: 1px 1px 15px 0px #dcdcdc;
+    margin-left: 1rem;
+  }
+}
+
+.reply {
+  justify-content: flex-end;
+  span {
+    padding: 1rem;
+    border-radius: 25px 25px 0 25px;
+    background-color: #3371fe;
+    color: white;
+    margin-left: 1rem;
+  }
+}
